@@ -1,0 +1,19 @@
+# Build artifacts
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+
+# IDE config
+.idea/
+*.iml
+
+# Binaries
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dylib
