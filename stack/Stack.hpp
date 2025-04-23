@@ -8,7 +8,7 @@ private:
     int height;
 
 public:
-    explicit Stack(T nodeData) : height(1) {
+    explicit Stack(const T &nodeData) : height(1) {
         auto *node = new Node<T>(nodeData);
         top = node;
     }
@@ -21,7 +21,7 @@ public:
         }
     }
 
-    void push(T nodeData) {
+    void push(const T &nodeData) {
         auto *node = new Node<T>(nodeData);
         node->next = top;
         top = node;
